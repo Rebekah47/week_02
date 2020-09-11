@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T10:45:26.397Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="mRvnkXfjkmhkWj9Kf2_I" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-11T10:48:25.727Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="G9o-U4c5-YqfwrwSbxei" version="13.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1192" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="993" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -9,55 +9,61 @@
         </mxCell>
         <mxCell id="wGOyVoExvTdumtITuqms-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wGOyVoExvTdumtITuqms-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="465" as="targetPoint" />
+            <mxPoint x="300" y="535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wGOyVoExvTdumtITuqms-2" value="Careoke Bar Rooms" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="380" width="160" height="170" as="geometry">
-            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+        <mxCell id="wGOyVoExvTdumtITuqms-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.286;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="wGOyVoExvTdumtITuqms-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="128" y="370" />
+              <mxPoint x="129" y="370" />
+            </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="wGOyVoExvTdumtITuqms-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="wGOyVoExvTdumtITuqms-0">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Careoke Bar" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="140" y="160" width="160" height="180" as="geometry">
+          <mxGeometry x="70" y="60" width="230" height="280" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wGOyVoExvTdumtITuqms-6" value="Name : str&lt;br&gt;Till: int&lt;br&gt;Room: str&lt;br&gt;Drinks : list&lt;br&gt;Songs : list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="26" width="160" height="80" as="geometry" />
+          <mxGeometry y="26" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wGOyVoExvTdumtITuqms-14" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="106" width="160" height="10" as="geometry" />
+          <mxGeometry y="106" width="230" height="10" as="geometry" />
         </mxCell>
         <mxCell id="wGOyVoExvTdumtITuqms-1" value="Customers" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="430" y="160" width="160" height="180" as="geometry">
+          <mxGeometry x="370" y="60" width="220" height="280" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wGOyVoExvTdumtITuqms-7" value="Name :str&lt;br&gt;Age : int&lt;br&gt;Wallet : int" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="wGOyVoExvTdumtITuqms-1">
-          <mxGeometry y="26" width="160" height="50" as="geometry" />
+          <mxGeometry y="26" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wGOyVoExvTdumtITuqms-15" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="wGOyVoExvTdumtITuqms-1">
-          <mxGeometry y="76" width="160" height="10" as="geometry" />
+          <mxGeometry y="76" width="220" height="10" as="geometry" />
         </mxCell>
         <mxCell id="wGOyVoExvTdumtITuqms-0" value="Songs" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="370" width="160" height="180" as="geometry">
+          <mxGeometry x="60" y="370" width="240" height="320" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wGOyVoExvTdumtITuqms-5" value="Name :str&lt;br&gt;Artist : str&lt;br&gt;Runtime : int" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="wGOyVoExvTdumtITuqms-0">
-          <mxGeometry y="26" width="160" height="50" as="geometry" />
+          <mxGeometry y="26" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wGOyVoExvTdumtITuqms-8" value="Name : str&lt;br&gt;Capacity : int&lt;br&gt;Songs : list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="406" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="wGOyVoExvTdumtITuqms-12" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="446" width="160" height="10" as="geometry" />
+        <mxCell id="wGOyVoExvTdumtITuqms-12" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="wGOyVoExvTdumtITuqms-0">
+          <mxGeometry y="76" width="240" height="10" as="geometry" />
         </mxCell>
         <mxCell id="wGOyVoExvTdumtITuqms-13" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="455" width="160" height="10" as="geometry" />
+          <mxGeometry x="370" y="460" width="220" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="wGOyVoExvTdumtITuqms-2" value="Careoke Bar Rooms" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="380" width="220" height="310" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wGOyVoExvTdumtITuqms-8" value="Name : str&lt;br&gt;Capacity : int&lt;br&gt;Songs : list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="wGOyVoExvTdumtITuqms-2">
+          <mxGeometry y="26" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
